@@ -1,0 +1,26 @@
+# Xilinx Vivado ignore list
+*.jou
+*.log
+*.str
+*.wdb
+*.xml
+*.html
+*.bit
+*.bin
+*.dcp
+*.mcs
+*.prm
+*.srec
+*.mmi
+.Xil/
+xsim.dir/
+usage_statistics_webtalk.*
+input_files/
+output_files/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
