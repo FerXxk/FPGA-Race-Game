@@ -109,3 +109,7 @@ The repository is organized as follows:
 - 📡 **Communication** with a remote car via UART
 - 💥 **Collision detection**
 - 🔄 **Finite State Machines (FSM)** for game control
+
+---
+
+*Developed by Fernando Román, Marta Barroso and José Chaqués | Electronics Systems Course, University of Seville*
