@@ -1,25 +1,29 @@
-# 🏎️ FPGA Racing Game
+
+<div align="center">
+
+<h1>🏎️ FPGA Racing Game</h1>
 
  ![Language](https://img.shields.io/badge/Language-VHDL-blue) ![Hardware](https://img.shields.io/badge/Hardware-Basys3-orange)![Status](https://img.shields.io/badge/Status-Completed-success)
+
+ </div>
 
 A **VHDL-based racing game** implementation for the **Basys 3 FPGA** board. This project uses a custom VGA driver to display the game interface and implements real-time logic for car movement, collision detection, and UART communication to play the game with another player.
 
 
 ## 🛠️ Hardware Setup
-<align="center">
-![Hardware Setup](media/hardware.jpeg)
-*Figure 1: FPGA Board and VGA Monitor Setup*
-</align>
+<div align="center">
 
-## 🎮 Gameplay
+<img src="media/hardware.jpeg" width="600" alt="Hardware Setup">
 
-Click the image below to watch the gameplay video.
+*FPGA Board Setup*
 
-[![Gameplay Video](media/race2.jpeg)](media/gameplay.mp4)
+</div>
+
 
 ## 🏗️ System Architecture
 
 The following block diagram represents the internal hardware structure of the design:
+<div align="center">
 
 ```mermaid
 graph LR
@@ -65,6 +69,22 @@ graph LR
     CLK((100MHz CLK)) --> VGA
     CLK --> Logic
 ```
+*Block Diagram of VHDL instances*
+
+</div>
+
+## 🎮 Gameplay
+
+Click the image below to watch the gameplay video.
+
+<div align="center">
+
+<img src="media/race2.jpeg" width="600" alt="Gameplay Video">
+
+*Gameplay Video with the TX and RX lines connected*
+
+</div>
+
 ## 📂 Project Structure
 
 The repository is organized as follows:
